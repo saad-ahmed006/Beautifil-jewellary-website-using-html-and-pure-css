@@ -1,0 +1,340 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ####################################topnav###################### */
+
+.top-nav{
+    display: flex;
+    background-color: #2c2c2c;
+    color: #e7e6e6;
+    
+    justify-content: space-around;
+}
+.top-nav p{
+    margin-right: 500px;
+}
+
+
+
+
+  
+#main{
+background-image: url(/img/images/bg/bg-1.jpg);
+height:690px ;
+background-position:center;
+background-size: 100% 100%;
+background-repeat:no-repeat;
+
+
+}
+
+/* #######################################navigation########################## */
+
+
+
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #262722; */
+
+    
+}
+.navigation .logo img{
+    width: 170px;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+.navigation .menu ul{
+   display: flex;
+   
+   
+    
+}
+.navigation .menu ul li{
+list-style: none;
+padding:0px 20px ;   
+text-decoration: none;
+margin-top: 20px;
+}
+.navigation .menu ul li a{
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+   
+ }
+.navigation .menu ul li a:hover{
+
+background-color: #343334;
+color: orange;
+
+    
+}
+
+
+
+/* ##########################################content########################## */
+
+.content-container{
+ 
+     width: 550px;
+     display: flex;
+    
+   margin: 150px auto; 
+   text-align: center;
+   color: white;
+}
+
+
+
+ .button{
+     color: white;
+     border-top: 1px solid black ;
+     border-bottom: 1px solid black ;
+     border-left: none ;
+     border-right: none ;
+     width: 200px;
+     margin: auto;
+     transition: all 0.1s ease-in-out;
+    }
+    
+    .button:hover{
+        color: white;
+        border-radius: 3px;
+        
+     border: 1px solid orange ;
+     /* color: orange; */
+     background-color: #343334;
+     width: 200px;
+     margin: auto;
+ }
+
+
+
+/* ####################newarrival#################################### */
+
+
+
+ .button-btn{
+   color: orange;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    border-left: none ;
+    border-right: none ;
+    width: 100px;
+    margin: auto;
+    transition: all 0.1s ease-in-out;
+    font-size: 9px;
+    text-align: center;
+   }
+   
+   .button-btn:hover{
+      /* color: orange; */
+       border-radius: 3px;
+       
+    border: 1px solid orange ;
+    
+  
+    width:100px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.container{
+
+
+    background-color: #343334;
+    padding: 60px;
+}
+.container h1,p{
+color: white;
+text-align: center;
+ 
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    }
+.image img{
+width: 450px;
+position: relative;
+transition: all 0.7s ease-in-out;
+}
+
+.boxes{
+overflow: hidden;
+
+}
+.boxes:hover .image img{
+transform: scale(1.2);
+opacity: 0.5;
+}
+
+
+
+
+.box-2{
+position: absolute;
+margin-top: -200px;
+margin-left: 50px;
+color: wheat;
+text-align: center;
+width: 370px;
+}
+.box-3{
+position: absolute;
+margin-top: -200px;
+margin-left: 50px;
+color: rgb(0, 0, 0);
+text-align: center;
+width: 370px;
+}
+
+
+
+
+
+
+/* /*333333333333333333333333333 Seller 33333333333333333333333333 */
+.container-1{
+    /* background-color: rgb(0, 0, 0); */
+}
+.box-selling{
+    display: flex;
+}
+.flex img{
+width: 8px;
+}
+
+
+/* ###############################################boxes#################################### */
+.container-3{
+
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+.box-hover {
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex img{
+width: 30px;
+border-radius: 20px;
+
+
+}
+.img{
+overflow: hidden;
+border-radius: 6px;
+}
+.img img{
+
+width: 300px;
+height: 300px;
+border-radius: 6px;
+transition: all 1s ease-in-out;
+
+
+}
+
+.img:hover img{
+
+opacity: 0.2;
+transform: rotate(360deg);
+
+
+
+}
+
+
+/*########################################## deal##################################### */
+
+
+.container-1{
+   
+    padding: 50px;
+    background-color:#343334 ;
+}
+
+.container-1 img{
+    position: relative;
+    margin-left:130px;
+    width: 1100px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.deal-day{
+    position: absolute;
+   margin-top: -230px;
+   margin-left:260px;
+   text-align: center;
+   color: white;
+}
+
+
+
+/* #################Blog############## */
+.container-2{
+    background-color: #000000;
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+
+.image{
+    transition: all 0.5s ease-in-out;
+    height: 450px;
+    overflow: hidden;
+
+}
+ .image img:hover{
+    /* transform: scale(1.1); */
+    transform: scale(1.2);
+
+}
+.main-dealing{
+    display: flex;
+
+    text-align: center;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #631027, rgb(111, 0, 255));
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom right, rgb(79, 0, 87), rgb(0, 0, 0));  
+  }
